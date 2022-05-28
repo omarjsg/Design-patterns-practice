@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/omaralghamdi/IdeaProjects/FactoryComplexNumber</OriginalElement>
+  <nodes>
+    <node x="516.6988388390746" y="472.0">VectorForm</node>
+    <node x="720.4883883907451" y="472.0">PolarForm</node>
+    <node x="-141.4629830107924" y="151.42164157636017">Color</node>
+    <node x="161.0328947368421" y="0.0">Driver</node>
+    <node x="594.022674897589" y="208.30046035888535">ComplexNumber</node>
+    <node x="212.0" y="130.0">Controller</node>
+    <node x="144.50000000000006" y="329.0">ComplexNumberFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PolarForm" target="ComplexNumber" relationship="GENERALIZATION">
+      <point x="-18.52688673935552" y="-115.1574974046423" />
+      <point x="742.8631591796875" y="452.3131103515625" />
+      <point x="22.6050129265534" y="82.81635653570362" />
+    </edge>
+    <edge source="ComplexNumberFactory" target="PolarForm" relationship="CREATE">
+      <point x="6.265585653459368" y="32.44700707865161" />
+      <point x="490.2472839355469" y="747.2176513671875" />
+      <point x="31.60228244418977" y="99.22420434136598" />
+    </edge>
+    <edge source="Controller" target="ComplexNumberFactory" relationship="TO_ONE">
+      <point x="-37.470270174822645" y="65.63061066528678" />
+      <point x="267.3607482910156" y="292.7947082519531" />
+      <point x="-98.25" y="-39.0" />
+    </edge>
+    <edge source="ComplexNumberFactory" target="Color" relationship="DEPENDENCY">
+      <point x="-98.25" y="39.0" />
+      <point x="32.24892044067383" y="352.5140686035156" />
+      <point x="0.0" y="-94.0" />
+    </edge>
+    <edge source="Driver" target="Controller" relationship="DEPENDENCY">
+      <point x="0.0" y="39.0" />
+      <point x="305.7664489746094" y="79.88322448730469" />
+      <point x="0.0" y="-72.5" />
+    </edge>
+    <edge source="Driver" target="Color" relationship="DEPENDENCY">
+      <point x="-75.2731148880101" y="2.5500700802040157" />
+      <point x="43.59967803955078" y="64.89134216308594" />
+      <point x="0.0" y="-94.0" />
+    </edge>
+    <edge source="VectorForm" target="ComplexNumber" relationship="GENERALIZATION">
+      <point x="-7.32948938202253" y="-104.36794785297167" />
+      <point x="656.9911499023438" y="445.0059814453125" />
+      <point x="-3.76944153308591" y="85.21403421385264" />
+    </edge>
+    <edge source="Controller" target="ComplexNumber" relationship="DEPENDENCY">
+      <point x="125.57181193931092" y="-45.861401368642845" />
+      <point x="562.7605590820312" y="158.81536865234375" />
+      <point x="-51.25" y="-94.5" />
+    </edge>
+    <edge source="ComplexNumberFactory" target="ComplexNumber" relationship="DEPENDENCY">
+      <point x="166.3323324678443" y="-31.535575507466035" />
+      <point x="537.6029663085938" y="286.1131591796875" />
+      <point x="-100.47626833823074" y="-22.68146130285345" />
+    </edge>
+    <edge source="Controller" target="ComplexNumberFactory" relationship="CREATE">
+      <point x="0.0" y="72.5" />
+      <point x="403.625" y="277.4375" />
+      <point x="98.25" y="-39.0" />
+    </edge>
+    <edge source="ComplexNumberFactory" target="VectorForm" relationship="CREATE">
+      <point x="12.259779848831954" y="28.850490561428103" />
+      <point x="423.96197509765625" y="550.7725219726562" />
+      <point x="-17.36432420978724" y="23.15309320409517" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8341404761060186" showDependencies="true" x="397.0391592729893" y="418.584884969138" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
